@@ -1,0 +1,50 @@
+.card {
+  width: 35rem;
+  height: 37.4rem;
+  background: dodgerblue;
+  border-radius: 2rem;
+  overflow: hidden;
+
+  &__header {
+    width: 100%;
+    height: 14rem;
+  }
+
+  &__body {
+    width: 100%;
+    height: 14rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    margin-top: -14.5rem;
+    height: 11rem;
+    width: 11rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      border-radius: 50%;
+      border: 0.5rem solid #fff;
+      background: #fff;
+    }
+  }
+
+  &__stats {
+    height: 9.4rem;
+    width: 100%;
+    background: greenyellow;
+  }
+}
+
+// img {
+//   margin-top: -14.5rem;
+//   border-radius: 50%;
+//   border: 0.5rem solid #fff;
+//   background: #fff;
+// }
