@@ -1,13 +1,27 @@
 .layout {
   display: relative;
   .svg-pattern__top {
-    position: absolute;
+    position: fixed;
     z-index: -10;
 
     width: 97.8rem;
     height: 97.6rem;
     left: -16rem;
     top: -60rem;
+    transform: rotate(-320deg);
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  .svg-pattern__bottom {
+    position: fixed;
+    z-index: -10;
+
+    width: 97.8rem;
+    height: 97.6rem;
+    right: -16rem;
+    bottom: -63rem;
     transform: rotate(-320deg);
 
     mix-blend-mode: normal;
